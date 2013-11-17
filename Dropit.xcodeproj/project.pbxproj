@@ -56,6 +56,7 @@
 		5B6E208A1838DB5200C7FDDD /* DropitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitTests.m; sourceTree = "<group>"; };
 		5B6E20941838DFF600C7FDDD /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
 		5B6E20951838DFF600C7FDDD /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
+		5B6E20971838E6AE00C7FDDD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 		5B6E20531838DB5100C7FDDD = {
 			isa = PBXGroup;
 			children = (
+				5B6E20971838E6AE00C7FDDD /* README.md */,
 				5B6E20651838DB5100C7FDDD /* Dropit */,
 				5B6E20841838DB5200C7FDDD /* DropitTests */,
 				5B6E205E1838DB5100C7FDDD /* Frameworks */,
