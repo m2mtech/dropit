@@ -21,6 +21,7 @@
 		5B6E20811838DB5200C7FDDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6E20631838DB5100C7FDDD /* UIKit.framework */; };
 		5B6E20891838DB5200C7FDDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E20871838DB5200C7FDDD /* InfoPlist.strings */; };
 		5B6E208B1838DB5200C7FDDD /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E208A1838DB5200C7FDDD /* DropitTests.m */; };
+		5B6E20961838DFF600C7FDDD /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E20951838DFF600C7FDDD /* DropitBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5B6E20861838DB5200C7FDDD /* DropitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropitTests-Info.plist"; sourceTree = "<group>"; };
 		5B6E20881838DB5200C7FDDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B6E208A1838DB5200C7FDDD /* DropitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitTests.m; sourceTree = "<group>"; };
+		5B6E20941838DFF600C7FDDD /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		5B6E20951838DFF600C7FDDD /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,11 @@
 		5B6E20651838DB5100C7FDDD /* Dropit */ = {
 			isa = PBXGroup;
 			children = (
-				5B6E206E1838DB5100C7FDDD /* DropitAppDelegate.h */,
-				5B6E206F1838DB5100C7FDDD /* DropitAppDelegate.m */,
 				5B6E20711838DB5100C7FDDD /* Main.storyboard */,
 				5B6E20741838DB5100C7FDDD /* DropitViewController.h */,
 				5B6E20751838DB5100C7FDDD /* DropitViewController.m */,
+				5B6E20941838DFF600C7FDDD /* DropitBehavior.h */,
+				5B6E20951838DFF600C7FDDD /* DropitBehavior.m */,
 				5B6E20771838DB5100C7FDDD /* Images.xcassets */,
 				5B6E20661838DB5100C7FDDD /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		5B6E20661838DB5100C7FDDD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B6E206E1838DB5100C7FDDD /* DropitAppDelegate.h */,
+				5B6E206F1838DB5100C7FDDD /* DropitAppDelegate.m */,
 				5B6E20671838DB5100C7FDDD /* Dropit-Info.plist */,
 				5B6E20681838DB5100C7FDDD /* InfoPlist.strings */,
 				5B6E206B1838DB5100C7FDDD /* main.m */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6E20761838DB5100C7FDDD /* DropitViewController.m in Sources */,
+				5B6E20961838DFF600C7FDDD /* DropitBehavior.m in Sources */,
 				5B6E20701838DB5100C7FDDD /* DropitAppDelegate.m in Sources */,
 				5B6E206C1838DB5100C7FDDD /* main.m in Sources */,
 			);
